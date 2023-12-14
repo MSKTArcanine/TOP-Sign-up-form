@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Sign up form</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section1">
+            <div class="banniere">
+                <img src="./odin-lined.png" alt="Odin lined" width="113px" height="150px">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="blabla">
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</h2>
+                <h2>You <em>know</em> you want to</h2>
+            </div>
+            <form action="https://httpbin.org/post">
+                <div class="fBody">
+                    <h2>Let's do this !</h2>
+                    <div class="form">
+                        <ul>
+                            <li>
+                                <label for="fName">
+                                    <span>FIRST NAME</span>
+                                    <input type="text" id="fName" name="fName" required>
+                                    <span></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="email">
+                                    <span>EMAIL</span>
+                                    <input type="email" id="email" name="email" required>
+                                    <span></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="password">
+                                    <span>PASSWORD</span>
+                                    <input type="password" id="password" name="password"required minlength="8">
+                                    <span></span>
+                                </label>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <label for="lName">
+                                    <span>LAST NAME</span>
+                                    <input type="text" id="lName" name="lName"required>
+                                    <span></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="tel">
+                                    <span>PHONE NUMBER</span>
+                                    <input type="tel" id="tel" name="tel"required>
+                                    <span></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="passwordConfirm">
+                                    <span>CONFIRM PASSWORD</span>
+                                    <input type="password" id="passwordConfirm" name="passwordConfirm"required>
+                                    <span></span>
+                                </label>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="fFooter">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account ? <a href="">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
